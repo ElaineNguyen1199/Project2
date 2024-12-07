@@ -16,13 +16,16 @@ class Logic:
 
     def decide_winner(self, player_choice, computer_choice):
         if player_choice == computer_choice:
-            match_result = "Match Draw"
+            match_result = "Its a Tie!"
         elif (player_choice == "Rock" and computer_choice == "Scissor") or \
              (player_choice == "Paper" and computer_choice == "Rock") or \
              (player_choice == "Scissors" and computer_choice == "Paper"):
+            match_result = "You win!"
             self.player_score += 1
         else:
+            match_result = "Computer wins!"
             self.computer_score += 1
+        return match_result
 
     def get_scores(self):
         return self.player_score, self.computer_score
