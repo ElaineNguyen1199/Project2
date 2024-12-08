@@ -1,6 +1,9 @@
 from gui import *
 
-def main():
+def main() -> None:
+    """
+    Creates the main Tkinter window
+    """
     root = Tk()
     root.title("Rock, Paper, Scissors")
     root.geometry("750x500")
