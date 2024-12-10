@@ -10,3 +10,14 @@ Project2
   logic.py
 
 The images folder should be under Project2 containg new_rock.png, new_scissors.png, new_paper.png  
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sources I used for Project 2:
+Images as a button tkinter: https://www.geeksforgeeks.org/python-add-image-on-a-tkinter-button/ 
+
+Tkinter displaying icon or JPG PNG images in windows by using Label or button using PILLOW library:
+https://www.youtube.com/watch?v=dWuutezT1XQ&list=PL2yMl8cPvWw06K1_CPGfKqZT-FHM0Y4no 
+
+Using .thumbnail() to resize my images/buttons: https://www.geeksforgeeks.org/python-pil-image-thumbnail-method/ 
+
+Background coloring: https://www.educative.io/answers/how-to-change-a-tkinter-window-background-color 
